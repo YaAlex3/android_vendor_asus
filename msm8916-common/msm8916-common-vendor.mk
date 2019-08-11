@@ -42,7 +42,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/msm8916-common/proprietary/vendor/bin/rfs_access:system/vendor/bin/rfs_access\
     vendor/asus/msm8916-common/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage\
     vendor/asus/msm8916-common/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon\
-    vendor/asus/msm8916-common/proprietary/vendor/bin/vm_bms:system/vendor/bin/vm_bms\
     vendor/asus/msm8916-common/proprietary/etc/audio_effects.conf:system/etc/audio_effects.conf\
     vendor/asus/msm8916-common/proprietary/etc/bspcapability.xml:system/etc/bspcapability.xml\
     vendor/asus/msm8916-common/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml\
