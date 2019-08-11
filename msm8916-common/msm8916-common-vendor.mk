@@ -253,6 +253,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/msm8916-common/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so\
     vendor/asus/msm8916-common/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so\
     vendor/asus/msm8916-common/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so\
+    vendor/asus/msm8916-common/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so\
     vendor/asus/msm8916-common/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so\
     vendor/asus/msm8916-common/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so\
     vendor/asus/msm8916-common/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so\
