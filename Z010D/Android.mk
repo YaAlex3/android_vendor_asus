@@ -16,8 +16,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter Z010D,$(TARGET_DEVICE)),)
-
 include $(CLEAR_VARS)
 LOCAL_MODULE := libloc_api_v02
 LOCAL_MODULE_OWNER := asus
@@ -217,5 +215,3 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
-
-endif
