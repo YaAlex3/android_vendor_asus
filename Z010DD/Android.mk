@@ -12,7 +12,5 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-LOCAL_PATH := vendor/asus/Z010DD/proprietary
+LOCAL_PATH := $(call my-dir)
 
-PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/*:install/Z010DD/*
