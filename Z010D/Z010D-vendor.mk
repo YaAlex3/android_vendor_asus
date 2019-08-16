@@ -38,7 +38,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z010D/proprietary/vendor/bin/rfs_access:system/vendor/bin/rfs_access\
     vendor/asus/Z010D/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage\
     vendor/asus/Z010D/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon\
-    vendor/asus/Z010D/proprietary/vendor/bin/vm_bms:system/vendor/bin/vm_bms\
     vendor/asus/Z010D/proprietary/etc/audio_effects.conf:system/etc/audio_effects.conf\
     vendor/asus/Z010D/proprietary/etc/bspcapability.xml:system/etc/bspcapability.xml\
     vendor/asus/Z010D/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml\
@@ -813,5 +812,3 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z010D/proprietary/etc/firmware/wcnss.b10:system/etc/firmware/wcnss.b10\
     vendor/asus/Z010D/proprietary/etc/firmware/wcnss.b11:system/etc/firmware/wcnss.b11\
     vendor/asus/Z010D/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt
-
-$(call inherit-product, vendor/asus/Z010D/Z010D-vendor.mk)

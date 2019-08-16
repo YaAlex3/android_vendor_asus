@@ -14,4 +14,9 @@
 
 # Pick up overlay for features that depend on non-open-source files
 
+LOCAL_PATH := vendor/asus/Z010DD/proprietary
 
+PRODUCT_COPY_FILES += \
+        $(LOCAL_PATH)/system/cpuid.sh:install/bin/cpuid.sh
+$(shell mkdir -p  $(LOCAL_PATH)/../../../../out/target/product/Z010D/install/Z010DD/system)
+$(shell cp -rf $(LOCAL_PATH)/system/*  $(LOCAL_PATH)/../../../../out/target/product/Z010D/install/Z010DD/system)
