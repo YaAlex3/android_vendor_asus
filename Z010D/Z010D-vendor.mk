@@ -309,7 +309,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z010D/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so\
     vendor/asus/Z010D/proprietary/vendor/lib/libsmwrapper.so:system/vendor/lib/libsmwrapper.so\
     vendor/asus/Z010D/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so\
-    vendor/asus/Z010D/proprietary/vendor/lib/libwvhidl.so:system/vendor/lib/libwvhidl.so \
+    vendor/asus/Z010D/proprietary/vendor/lib64/libwvhidl.so:system/vendor/lib64/libwvhidl.so \
     vendor/asus/Z010D/proprietary/lib/libFileMux.so:system/lib/libFileMux.so \
     vendor/asus/Z010D/proprietary/lib/libOmxMux.so:system/lib/libOmxMux.so \
     vendor/asus/Z010D/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
@@ -323,8 +323,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z010D/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
     vendor/asus/Z010D/proprietary/lib/libmmparser_lite.so:system/lib/libmmparser_lite.so \
     vendor/asus/Z010D/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
-    vendor/asus/Z010D/proprietary/vendor/bin/hw/android.hardware.drm@1.0-service.widevine:system/vendor/bin/hw/android.hardware.drm@1.0-service.widevine \
-    vendor/asus/Z010D/proprietary/vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc:system/vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc \
+    vendor/asus/Z010D/proprietary/vendor/bin/hw/android.hardware.drm@1.2-service.widevine:system/vendor/bin/hw/android.hardware.drm@1.2-service.widevine \
+    vendor/asus/Z010D/proprietary/vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc:system/vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc \
     vendor/asus/Z010D/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so\
     vendor/asus/Z010D/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so\
     vendor/asus/Z010D/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so\
@@ -382,6 +382,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z010D/proprietary/bin/LaserFocus_on:system/bin/LaserFocus_on\
     vendor/asus/Z010D/proprietary/bin/LaserFocus_Status:system/bin/LaserFocus_Status\
     vendor/asus/Z010D/proprietary/bin/LaserOn:system/bin/LaserOn\
+    vendor/asus/Z010D/proprietary/vendor/bin/move_widevine_data.sh:system/vendor/bin/move_widevine_data.sh \
     vendor/asus/Z010D/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon\
     vendor/asus/Z010D/proprietary/bin/ZC550KL_afCali:system/bin/ZC550KL_afCali\
     vendor/asus/Z010D/proprietary/bin/ZC550KL_OV5670_DUT_CONFIG:system/bin/ZC550KL_OV5670_DUT_CONFIG\
