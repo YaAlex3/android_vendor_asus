@@ -17,7 +17,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter Z00L Z00T,$(TARGET_DEVICE)),)
+ifneq ($(filter Z00L Z00T Z010D,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libloc_api_v02
