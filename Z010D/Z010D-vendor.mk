@@ -118,6 +118,10 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z010D/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so\
     vendor/asus/Z010D/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so\
     vendor/asus/Z010D/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so\
+    vendor/asus/Z010D/proprietary/vendor/lib64/libacdbmapper.so:system/vendor/lib64/libacdbmapper.so \
+    vendor/asus/Z010D/proprietary/vendor/lib64/libaudioalsa.so:system/vendor/lib64/libaudioalsa.so \
+    vendor/asus/Z010D/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
+    vendor/asus/Z010D/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
     vendor/asus/Z010D/proprietary/vendor/lib64/libacdbrtac.so:system/vendor/lib64/libacdbrtac.so\
     vendor/asus/Z010D/proprietary/vendor/lib64/libadiertac.so:system/vendor/lib64/libadiertac.so\
     vendor/asus/Z010D/proprietary/vendor/lib64/libadreno_utils.so:system/vendor/lib64/libadreno_utils.so\
